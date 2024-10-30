@@ -44,14 +44,14 @@ limit 3
 
 --show top 3 states where top 3 items are purchased in high quantity
 
-select st.name as states , sum(o.revenue) as revenue
+select st.name as states 
 from orders as o inner join customers as c on c.id = o.customer_id
 inner join states as st on st.id = c.state_id
 where o.product_id IN(
 	select product_id from orders group by product_id order by sum (revenue) desc limit 3
 )
 group by states
-order by revenue desc limit 3
+order by sum (o.quantity) desc limit 3
 
 --show which age group people generated more revenue in the top 3 states
 
