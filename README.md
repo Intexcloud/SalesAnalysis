@@ -11,7 +11,7 @@ This data include sales analysis using SQL
 ![top 3 months by year by revenue](https://github.com/user-attachments/assets/319f6b3c-7ab0-4348-8266-99676c56bfef)
 
 # show top 3 states where top 3 items are purchased in high quantity
-![top 3 states with highest purchase with top 3 products](https://github.com/user-attachments/assets/028a9703-dfb2-47dc-818d-80b37fccc1e1)
+![top 3 states with highest purchase with top 3 products](https://github.com/user-attachments/assets/0394e1e9-7027-4e18-8378-8a8ebf511b06)
 
 # show which age group people generated more revenue in the top 3 states
 ![aged group ](https://github.com/user-attachments/assets/ec4ffba5-e853-4f1f-ac2b-6b8ba5673629)
