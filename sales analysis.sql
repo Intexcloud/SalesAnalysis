@@ -44,7 +44,7 @@ limit 3
 
 --show top 3 states where top 3 items are purchased in high quantity
 
-select st.name as states 
+select st.name as states, sum(o.quantity) as quantity
 from orders as o inner join customers as c on c.id = o.customer_id
 inner join states as st on st.id = c.state_id
 where o.product_id IN(
