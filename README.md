@@ -1,6 +1,8 @@
 # SalesAnalysis
-
 This data include sales analysis using SQL
+
+#ERD Schema
+![ERD Schema](https://github.com/user-attachments/assets/ce028697-ac40-4efa-9d32-762a4948bedb)
 
 # list top 3 products by revenue
 ![3 top products by revenue](https://github.com/user-attachments/assets/580b0df5-22bd-4503-a616-849d4c173806)
@@ -13,3 +15,4 @@ This data include sales analysis using SQL
 
 # show which age group people generated more revenue in the top 3 states
 ![aged group ](https://github.com/user-attachments/assets/ec4ffba5-e853-4f1f-ac2b-6b8ba5673629)
+
